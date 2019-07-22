@@ -1,0 +1,249 @@
+body {
+    background: rgba(13, 122, 160, 0.5);
+    padding: 0 20px 20px 20px;
+    margin: 0;
+}
+
+article {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+
+#logo {
+    font-family: "Baskerville Old Face", "Palatino Linotype", sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2.1em;
+    font-style: italic;
+    border-radius: 0 0 20px 20px;
+}
+
+#navi {
+    font-family: "Baskerville Old Face", "Palatino Linotype", sans-serif;
+    color: rgba(13, 122, 160, 0.3);
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    margin: 0 1px 1px 5px;
+    padding: 0 auto;
+}
+
+#nav1 {
+    width: 800px;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    padding: 0 auto;
+    margin: 0 10px 20px;
+}
+
+
+#nav1 li {
+    width: 150px;
+    display: inline-block;
+}
+
+#lef {
+    margin: 0 7px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: auto;
+    font-family: "Russo One", serif;
+    padding: 4px 5px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h3 {
+    color: crimson;
+    margin: 0 50px;
+    right: 20px;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+}
+
+#nav1 a {
+    margin: 20px;
+    font-family: Dancing Script, sans-serif;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+#nav1 a:hover{
+    color: #ffcb4f;
+}
+#pos {
+
+    clear: left;
+}
+
+#post p {
+    font-size: 20px;
+}
+
+.superblock {
+    background: #3d3e96;
+    display: block;
+    padding: 0 1px 20px;
+
+
+}
+
+.superblock h3 {
+    color: crimson;
+}
+
+.superblock p {
+    color: #ffffff;
+}
+
+.newwait {
+    width: auto;
+    height: auto;
+    margin: 10px auto;
+    padding-left: 10px;
+}
+
+.cont {
+    max-width: 900px;
+    margin: auto;
+    padding: auto;
+    padding-block: auto;
+}
+
+.line_block {
+    width: auto;
+    height: auto;
+    float: left;
+    margin: 2px;
+    text-align: center;
+}
+
+.line_block img {
+    size: 120px;
+    width: 150px;
+}
+.contl {
+    width: 80px;
+    height: 120px;
+    margin: 5px 10px 1px;
+    padding: 0 5px;
+    float: left;
+    left: 1px;
+    top: 30px;
+    z-index: 1;
+}
+
+.cont2 {
+    position: relative;
+    padding: 5px;
+    float: top;
+    left: 310px;
+    z-index: 2;
+}
+
+.cont3 {
+    size: 120px;
+    margin: 0 auto;
+    padding: 5px 5px;
+    float: right;
+}
+
+.social {
+    width: auto;
+    height: auto;
+}
+
+.socialok {
+    margin: 0 10px;
+    padding: 5px 20px 10px 10px;
+    clear: both;
+    float: right;
+}
+
+.socialfs {
+    width: 1px;
+    size: 25px;
+    margin: 0 15px;
+    padding: 1px;
+    float: right;
+}
+
+.socialvk {
+    width: 1px;
+    size: 1px;
+    margin: 0 5px;
+    padding: 5px 5px;
+    float: right;
+}
+
+.test {
+    margin: 20px 150px 20px;
+    top: 10px;
+    max-width: 600px;
+    background: #ffffff;
+}
+
+.ctx {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin: 10px;
+    padding: 2px;
+}
+
+.ctx1 {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin: 1px;
+    padding: 12px;
+    margin-block: auto;
+}
+
+.note {
+    color: #3a37dd;
+    margin: 0 1px;
+    padding: 5px;
+}
+
+
+img[ title="reklam"] {
+    size: 120px;
+    width: 150px;
+}
+
+img[ title="botton"] {
+    size: 80px;
+    width: 120px;
+}
+
+img[title="logo1"] {
+    width: 900px;
+    border-radius: 0 0 50px 50px;
+}
+
+img[title="fs"] {
+    width: 30px;
+    size: 30px;
+}
+
+img[title="vk"] {
+    width: 30px;
+    size: 30px;
+}
+
+img[title="ok"] {
+    width: 30px;
+    size: 30px;
+}
