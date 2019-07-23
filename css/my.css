@@ -127,10 +127,16 @@ p {
 }
 
 .cont {
-    max-width: 900px;
-    margin: auto;
-    padding: auto;
-    padding-block: auto;
+    margin: 1px;
+    padding: 12px;
+    margin-block: auto;
+    text-align: justify;
+    text-indent: 5px;
+    border-width: 300px;
+    box-sizing: border-box;
+    width: 95%;
+    height: 80%;
+    overflow: auto;
 }
 
 .line_block {
@@ -144,24 +150,41 @@ p {
 .line_block img {
     size: 120px;
     width: 150px;
+    float: left;
 }
+
+.test {
+    margin: 20px 350px 20px;
+    top: 10px;
+    max-width: 300px;
+    background: #ffffff;
+    line-height: 20px;
+    text-align: justify;
+    text-indent: 5px;
+    box-sizing: border-box;
+    width: 35%;
+    overflow: auto;
+}
+
 .contl {
-    width: 80px;
+    width: 130px;
     height: 120px;
-    margin: 5px 10px 1px;
+    margin: 5px 5px 1px;
     padding: 0 5px; color: #999999;
     float: left;
-    left: 1px;
-    top: 30px;
     z-index: 1;
+    overflow: auto;
 }
 
 .cont2 {
+    width: 130px;
+    height: 120px;
     position: relative;
     padding: 5px;
     float: top;
-    left: 310px;
+    left: 10px;
     z-index: 2;
+    overflow: auto;
 }
 
 .cont3 {
@@ -199,13 +222,6 @@ p {
     float: right;
 }
 
-.test {
-    margin: 20px 150px 20px;
-    top: 10px;
-    max-width: 600px;
-    background: #ffffff;
-}
-
 .ctx {
     color: rgb(255, 255, 255);
     font-size: 14px;
@@ -214,16 +230,28 @@ p {
     line-height: 20px;
     text-align: justify;
     text-indent: 5px;
+    border-width: 300px;
+    box-sizing: border-box;
+    float: top;
+    overflow: auto;
 }
 
 .ctx1 {
     color: rgb(255, 255, 255);
+    display: block;
     font-size: 14px;
     margin: 1px;
-    padding: 12px;
+    padding: 2px;
     margin-block: auto;
     text-align: justify;
     text-indent: 5px;
+    border-width: 300px;
+    box-sizing: border-box;
+    width: 74%;
+    height: 50%;
+    float:top;
+    overflow: auto;
+
 }
 
 .note {
@@ -250,11 +278,13 @@ p {
     text-shadow: -1px 2px 3px ;
     line-height: 20px;
     text-indent: 10px;
-    padding-bottom: 10px;
     border: 1px solid #a4a7ff;
     background: #daeefc;
     margin-bottom: 10px;
     margin-top: -2px;
+    border-radius: 1px 1px 20px 20px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 3px rgba(0,0,0,0.5 );
 }
 
 .context h3{
@@ -278,7 +308,6 @@ ol {
     text-align: center;
     color: #323130;
     font-family: 'Great Vibes', cursive;
-    
 }
 
 img[ title="reklam"] {
