@@ -107,16 +107,19 @@ p {
     background: #3d3e96;
     display: block;
     padding: 0 1px 20px;
+    overflow: auto;
 
 
 }
 
 .superblock h3 {
     color: crimson;
+    overflow: auto;
 }
 
 .superblock p {
     color: #ffffff;
+    overflow: auto;
 }
 
 .newwait {
@@ -197,29 +200,33 @@ p {
 .social {
     width: auto;
     height: auto;
+    overflow: auto;
 }
 
 .socialok {
-    margin: 0 10px;
-    padding: 5px 20px 10px 10px;
+    margin: 0 auto;
+    padding: 0 auto;
     clear: both;
     float: right;
+    overflow: auto;
 }
 
 .socialfs {
-    width: 1px;
-    size: 25px;
-    margin: 0 15px;
-    padding: 1px;
+    width: 40px;
+    size: 40px;
+    margin: 0 auto;
+    padding: 0 auto;
     float: right;
+    overflow: auto;
 }
 
 .socialvk {
-    width: 1px;
-    size: 1px;
-    margin: 0 5px;
-    padding: 5px 5px;
+    width: 40px;
+    size: 40px;
+    margin: 0 auto;
+    padding: 0 auto;
     float: right;
+    overflow: auto;
 }
 
 .ctx {
