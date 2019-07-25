@@ -6,16 +6,9 @@ body {
 
 
 main{
-    display: flex;
-    color: floralwhite;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    padding: 0 auto;
+    margin: 0 auto;
     height: 100vh;
-    min-height: 600px;
-    background: url("../img/index.jpeg") no-repeat center;
-    background-size: cover;
-    position: relative;
 }
 
 .main-overlay{
@@ -34,7 +27,6 @@ main{
     align-items: center;
     justify-content: space-between;
      height: 10vh;
-    width: 100%;
     position: relative;
     z-index: 2;
 }
@@ -81,138 +73,83 @@ main{
     color: #ffffff;
 }
 
-.con1{
-    background: #ffffff;
+.flexlogo{
     display: flex;
-    align-items: stretch;
     flex-direction: row;
-    max-width: 700px;
-    max-height: 700px;
-
-    word-spacing: 2px;
-    text-shadow: -1px 2px 3px ;
-    line-height: 20px;
-    text-indent: 10px;
-    border: 1px solid #a4a7ff;
-    margin-bottom: 10px;
-    margin-top: -2px;
-    padding: 5px;
-    box-shadow: 2px 2px 2px 3px rgba(0,0,0,0.5 );
-
+    flex-wrap: wrap;
+    justify-self: start;
 }
 
-.box {
-    flex: 1;
-    order: 1;
-}
-
-.box2{
-    flex: 1;
-    order: 1;
-}
-
-.con1 div {
-    padding: 1px;
-
-}
-
-.con1.box img {
-    width: 120px;
-    height: 120px;
-}
-
-.text {
-  flex: 2;
-    order: 2;
-    overflow: auto;
-}
-
-.text h2,h3,h4,h5,h6 {
-    font-size: 25px;
-    font-weight: bold;
-    color: #6e5cff;
-    text-shadow: -1px 2px 3px;
-}
-
-
-.text p {
-    word-spacing: 2px;
+.textlogo{
+    flex-grow: 1;
     color: black;
-    text-shadow: -1px 2px 3px ;
-    line-height: 20px;
-    text-indent: 10px;
-    overflow: auto;
+    padding: 0 auto;
 }
 
-.im {
+.textlogo h3,h4,h5,h6 {
+    color: red;
+}
+
+.tulsebar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-self: start;
+    justify-items: center;
+    height: 70px;
+}
+
+.tulseutils{
+    background: white;
+    color: black;
+    width: 100px;
     margin: 0 auto;
-    padding-block: auto;
+    padding: 23px;
+    flex: 1 1 auto;
 }
 
-.im img {
-    width: 400px;
-    height: 400px;
-}
-
-
-.con2{
-
-    display: flex;
-    align-items: revert;
-    flex-direction: initial;
-    justify-content: space-between;
-}
-
-.con2 div {
-    padding: 1px;
-
-}
-
-.con2 img {
-    width: 60px;
-    height: 60px;
-}
-
-.box3 {
-
-    flex: 2;
-    order: 2;
-}
-
-.box4{
-    flex: 2;
-    order: 1;
-}
-
-.box5{
-    flex: 1;
-    order: 3;
-}
-
-.box6{
-    flex: 1;
-    order: 4;
-}
-
-.superblock2{
-    flex: 2;
-    order: 2;
-}
-
-
-.main1{
-    background: #ffffff;
-    display: flex;
-    align-items: revert;
-    flex-direction: initial;
-    justify-content: space-between;
-}
-
-.superblock1{
-    flex: 1;
-    order: 2;
-}
-
-.superblock1 h1,h2,h3,h4,h5,h6{
+.tulseutils a {
+    font-family: Dancing Script, sans-serif;
+    padding-bottom: 10px;
+    text-decoration: none;
     color: black;
+    text-overflow: clip;
+}
+
+.flexin {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-self: start;
+    background: rgba(255,255,255,0.5);
+}
+
+.flexin h1 {
+    color: black;
+    font-weight: bold;
+
+}
+
+.elementmain{
+    flex-grow: 1;
+    flex-basis: 300px;
+    color: black;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.fleximg{
+    display: flex;
+    flex-direction: row;
+}
+
+.boximg{
+    flex-basis: 10px;
+    margin: 0 7px;
+    padding: 0 auto;
+}
+
+.boximg img {
+    width: 50px;
+    height: 50px;
 }

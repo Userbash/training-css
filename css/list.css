@@ -10,9 +10,6 @@ main{
     color: floralwhite;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    height: 100vh;
-    min-height: 600px;
     background: url("../img/index.jpeg") no-repeat center;
     background-size: cover;
     position: relative;
@@ -33,21 +30,18 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 10vh;
-    width: 100%;
     position: relative;
     z-index: 2;
 }
 
 .menu {
     display: flex;
-    width: 30%;
+   ;
 }
 
 .menu ul {
     color: floralwhite;
     justify-content: space-between;
-    width: 60%;
     display: flex;
     flex: 1;
 }
@@ -56,7 +50,6 @@ main{
     color: floralwhite;
     flex-direction: column;
     justify-content: space-between;
-    width: 30%;
     display: flex;
     font-family: "Baskerville Old Face", "Palatino Linotype", sans-serif;
     font-size: 18px;
@@ -92,7 +85,6 @@ main{
 .main-overlay{
     position: absolute;
     left: 0;top: 0;
-    width: 100%;
     height: 15%;
     opacity: .9;
     background-image: -moz-repeating-linear-gradient( 150deg, rgb(136,211,206) 0%,rgb(110,69,226) 100% );
@@ -102,13 +94,15 @@ main{
 
 .header{
     height: 10vh;
-    width: 100%;
     position: relative;
     z-index: 2;
 }
 
 .mainbox{
     display: block;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    justify-content: start;
     background: rgba(255, 255, 255, 0.8);
     padding: 0 10px;
     margin-block: 10px;
@@ -117,11 +111,9 @@ main{
 
 .grid {
     display: grid;
-    grid-template-columns: 150px 300px 150px 300px;
-    grid-auto-rows:minmax(50px, auto);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    grid-gap:50px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows:auto;
+    grid-template-rows: 25%  500px auto;
     justify-items: stretch;
 }
 
@@ -175,15 +167,24 @@ main{
    padding: 10px;
 }
 
+.fet{
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: minmax( 50px,155px);
+    grid-column-end: auto;
+    max-width: initial;
+    min-width: initial;
+    max-height: initial;
+    min-height: initial;
+}
+
 .footer{
-  display: grid;
+    display: grid;
     grid-template-columns: auto auto;
     grid-auto-rows: 90px 90px;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    grid-gap:50px;
-   padding: 0 auto;
-    margin: 0 auto;
+    grid-gap:10px;
     background: #3d3e96;
 }
 
@@ -201,16 +202,42 @@ main{
     margin-block: auto;
     text-align: justify;
     text-indent: 5px;
-    border-width: 300px;
+
     box-sizing: border-box;
     overflow: auto;
 }
 
 .footer h3 {
+    font-weight: bold;
+    font-size: 25px;
    color: red;
+    margin: 10px;
+}
+
+.footer p {
+  color: white;
 }
 
 .footer img {
     width: 120px;
     height: 120px;
+}
+
+.social{
+    display: grid;
+    grid-template-columns: 45px 45px 45px;
+    grid-auto-rows: 1px 1px 1px;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    grid-gap:1px;
+
+}
+
+.socialim{
+    padding: 0 auto;
+}
+
+.socialim img {
+    width: 30px;
+    height: 30px;
 }
