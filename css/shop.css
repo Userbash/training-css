@@ -108,12 +108,31 @@ main{
     flex: 1 1 auto;
 }
 
+.tulstext a {
+    font-family: Dancing Script, sans-serif;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: #695bff;
+    text-overflow: clip;
+    background-color: white;
+}
+
 .tulseutils a {
     font-family: Dancing Script, sans-serif;
     padding-bottom: 10px;
     text-decoration: none;
-    color: black;
+    color: #3a4138;
     text-overflow: clip;
+    background-color: white;
+}
+
+.tulstext{
+    background: white;
+    color: black;
+    width: 100px;
+    margin: 0 auto;
+    padding: 23px;
+    flex: 1 1 auto;
 }
 
 .flexin {

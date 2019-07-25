@@ -2,14 +2,12 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/css/my.css" line="160" />
-    <bookmark url="file://$PROJECT_DIR$/css/shop.css" line="133" />
+    <bookmark url="file://$PROJECT_DIR$/css/shop.css" line="153" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fd59ef0-b950-4bd0-bbf6-0a2f7d26868f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/list.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/shop.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/items/shops.html" beforeDir="false" afterPath="$PROJECT_DIR$/items/shops.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lists/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/lists/list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,20 +45,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/items/shops.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="138" column="14" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
+            <state relative-caret-position="300">
+              <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/shop.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="136" column="18" selection-start-line="136" selection-start-column="18" selection-end-line="136" selection-end-column="18" />
+            <state relative-caret-position="231">
+              <caret line="111" column="28" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -95,8 +93,8 @@
         <option value="$PROJECT_DIR$/css/list.ts" />
         <option value="$PROJECT_DIR$/lists/list.html" />
         <option value="$PROJECT_DIR$/css/list.css" />
-        <option value="$PROJECT_DIR$/css/shop.css" />
         <option value="$PROJECT_DIR$/items/shops.html" />
+        <option value="$PROJECT_DIR$/css/shop.css" />
       </list>
     </option>
   </component>
@@ -154,10 +152,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/items" />
+      <recent name="$PROJECT_DIR$/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -203,12 +203,12 @@
       <workItem from="1563816720971" duration="53098000" />
       <workItem from="1563962297696" duration="99000" />
       <workItem from="1563962405253" duration="112000" />
-      <workItem from="1563962518432" duration="42336000" />
+      <workItem from="1563962518432" duration="44519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143784000" />
+    <option name="totallyTimeSpent" value="145967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1368" height="744" extended-state="6" />
@@ -272,13 +272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lists/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="60" column="29" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="60" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/my.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-499">
@@ -286,17 +279,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/shop.css">
+    <entry file="file://$PROJECT_DIR$/lists/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="136" column="18" selection-start-line="136" selection-start-column="18" selection-end-line="136" selection-end-column="18" />
+        <state relative-caret-position="467">
+          <caret line="60" column="29" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="60" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/items/shops.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="138" column="14" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
+        <state relative-caret-position="300">
+          <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/shop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="111" column="28" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
         </state>
       </provider>
     </entry>
