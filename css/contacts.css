@@ -55,6 +55,7 @@ main{
 
 .menu ul li a {
     margin: 20px;
+    display: block;
     font-family: Dancing Script, sans-serif;
     padding-bottom: 10px;
     text-decoration: none;
@@ -101,6 +102,8 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
     justify-self: start;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 0 10px 10px ;
 }
 
 .form-mail {
@@ -110,9 +113,9 @@ main{
 }
 
 .form-text {
+    display: flex;
     font-family: initial sans-serif;
     font-weight: bold;
-    color: rgb(235,37,87);
 }
 
 .form-mail:hover{
@@ -131,6 +134,30 @@ main{
 
 .form-text:hover{
     background: rgba(255,255,230,0.6);
+}
+
+.contacts{
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+
+}
+
+.contacts iframe {
+    width: 550px;
+    height: 150px;
+    padding: 10px 10px 10px;
+}
+
+.contactext{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-self: start;
+    width: 200px;
 }
 
 .footer{

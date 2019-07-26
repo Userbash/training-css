@@ -151,10 +151,33 @@ main{
     padding: 0 auto;
 }
 
+.elementmain a{
+    border-right: solid 1px rgba(255, 197, 74, 0.7);
+    background: rgba(255, 197, 74, 0.8);
+    color: #4416ff;
+    margin: 0 1px 1px 130px;
+    padding: 0 auto;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.elementmain a:hover{
+    border-right: solid 1px rgba(255, 197, 74, 0.7);
+    background: rgba(255, 252, 180, 0.8);
+    color: #a8aeff;
+    margin: 0 1px 1px 130px;
+    padding: 0 auto;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
 .fleximg{
     display: flex;
     flex-direction: row;
 }
+
 
 .boximg{
     flex-basis: 10px;
