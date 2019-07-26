@@ -8,7 +8,6 @@ body {
 main{
     padding: 0 auto;
     margin: 0 auto;
-    height: 100vh;
 }
 
 .main-overlay{
@@ -33,13 +32,11 @@ main{
 
 .menu {
     display: flex;
-    width: 30%;
 }
 
 .menu ul {
     color: floralwhite;
     justify-content: space-between;
-    width: 60%;
     display: flex;
     flex: 1;
 }
@@ -48,7 +45,6 @@ main{
     color: floralwhite;
     flex-direction: column;
     justify-content: space-between;
-    width: 30%;
     display: flex;
     font-family: "Baskerville Old Face", "Palatino Linotype", sans-serif;
     font-size: 18px;
@@ -102,7 +98,6 @@ main{
 .tulseutils{
     background: white;
     color: black;
-    width: 100px;
     margin: 0 auto;
     padding: 23px;
     flex: 1 1 auto;
@@ -129,7 +124,6 @@ main{
 .tulstext{
     background: white;
     color: black;
-    width: 100px;
     margin: 0 auto;
     padding: 23px;
     flex: 1 1 auto;
@@ -140,17 +134,17 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
     justify-self: start;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255, 255, 255, 0.8);
 }
 
-.flexin h1 {
+.flexin h2,h3,h4,h5,h6 {
     color: black;
     font-weight: bold;
 
 }
 
 .elementmain{
-    flex-grow: 1;
+
     flex-basis: 300px;
     color: black;
     margin: 0 auto;
@@ -171,4 +165,56 @@ main{
 .boximg img {
     width: 50px;
     height: 50px;
+}
+
+
+.footer{
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    background: #3d3e96;
+}
+
+
+.pos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-self: start;
+}
+
+.pos h1,h2,h3,h4,h5,h6 {
+    font-size: 18px;
+   color: red;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer-text{
+    align-items: revert;
+    color: white;
+    margin: 0 auto;
+    padding: 0 1px 10px ;
+    text-align: -webkit-match-parent;
+
+}
+
+
+.social{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-self: start;
+}
+.socialim{
+    flex-basis: 10px;
+    margin: 0 7px;
+    padding: 0 auto;
+}
+
+.socialim img{
+    width: 30px;
+    height: 30px;
 }

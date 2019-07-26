@@ -157,15 +157,15 @@ p {
 }
 
 .test {
-    margin: 20px 350px 20px;
+    margin: 20px 50px 20px;
     top: 10px;
-    max-width: 300px;
+    max-width: initial;
     background: #ffffff;
     line-height: 20px;
     text-align: justify;
     text-indent: 5px;
     box-sizing: border-box;
-    width: 35%;
+    width: 50%;
     overflow: auto;
 }
 
@@ -252,12 +252,12 @@ p {
     margin-block: auto;
     text-align: justify;
     text-indent: 5px;
-    border-width: 300px;
+    border-width: 310px;
     box-sizing: border-box;
     width: 74%;
     height: 50%;
     float:top;
-    overflow: auto;
+
 
 }
 
