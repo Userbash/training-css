@@ -87,6 +87,7 @@ main{
     margin: 0 auto;
     padding: 0 auto;
     background: rgba(255, 255, 255, 0.8);
+    width: auto;
 }
 
 .form-group{
@@ -104,6 +105,7 @@ main{
     justify-self: start;
     background: rgba(255, 255, 255, 0.8);
     padding: 0 10px 10px ;
+    width: auto;
 }
 
 .form-mail {
@@ -147,7 +149,7 @@ main{
 }
 
 .contacts iframe {
-    width: 550px;
+    width: 500px;
     height: 150px;
     padding: 10px 10px 10px;
 }
